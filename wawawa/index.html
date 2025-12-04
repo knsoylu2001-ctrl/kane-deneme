@@ -1,0 +1,54 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+  <title>KaanNuriSoyluProje</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/light.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+<body>
+  <div id="main">
+    <header>
+      <div id="logo"><h1>Kaan Nuri <a href="#">Soylu</a></h1></div>
+      <nav>
+        <ul class="sf-menu" id="nav">
+          <li class="selected"><a href="index.html" data-lang="anasayfa">anasayfa</a></li>
+          <li><a href="about.html" data-lang="hakkımda">hakkımda</a></li>
+          <li><a href="#" data-lang="projeler/galeri">projeler/galeri</a>
+            <ul>
+              <li><a href="portfolio_one.html" data-lang="projeler">projeler</a></li>
+              <li><a href="portfolio_two.html" data-lang="galeri">galeri</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.php" data-lang="iletişim">iletişim</a></li>
+          <li><a href="javascript:void(0)" id="langToggle" data-lang="lang-toggle">TR</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <ul class="slideshow">
+        <li class="show"><img width="950" height="450" src="images/home_1.jpg" alt="Ben;" /></li>
+        <li><img width="950" height="450" src="images/home_2.jpg" alt="Embedded Software Engineer" /></li>
+        <li><img width="950" height="450" src="images/home_3.jpg" alt="Web Developer" /></li>
+      </ul>
+    </div>
+    <footer>
+      <p>Tüm hakları sakldıdır &copy;  <a href="http://www.css3templates.co.uk">Design from css3templates.co.uk</a>.</p>
+      <p><img src="images/twitter.png" alt="twitter" />&nbsp;<img src="images/facebook.png" alt="facebook" />&nbsp;<img src="images/rss.png" alt="rss" /></p>
+    </footer>
+  </div>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript" src="js/language.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>PhotoArtWork</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <!-- stylesheets -->
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/light.css" rel="stylesheet" type="text/css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+
+    <!-- begin header -->
+    <header>
+      <div id="logo"><h1>Kaan Nuri <a href="#">Soylu</a></h1></div>
+      <nav>
+        <ul class="sf-menu" id="nav">
+          <li><a href="index.html" data-lang="anasayfa">anasayfa</a></li>
+          <li class="selected"><a href="about.html" data-lang="hakkımda">hakkımda</a></li>
+          <li><a href="#" data-lang="projeler/galeri">projeler/galeri</a>
+            <ul>
+              <li><a href="portfolio_one.html" data-lang="projeler">projeler</a></li>
+              <li><a href="portfolio_two.html" data-lang="galeri">galeri</a></li>
+            </ul>
+          </li>
+          
+          <li><a href="contact.php" data-lang="iletişim">iletişim</a></li>
+          <li><a href="javascript:void(0)" id="langToggle" data-lang="lang-toggle">TR</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- end header -->
+
+    <!-- begin content -->
+    <div id="site_content">
+      <div id="left_content">
+        <h1 data-lang-tr="Kişisel Tanıtım" data-lang-en="About Me">Kişisel Tanıtım</h1>
+        <p data-lang-tr="Ben Kaan Nuri Soylu. Antalya doğa koleji mezunuyum ve şu anda Akdeniz Üniversitesi'nde Bilgisayar Programcılığı bölümünde eğitimime devam ediyorum." data-lang-en="I am Kaan Nuri Soylu. I graduated from Antalya Nature College and I am currently continuing my education in the Computer Programming department at Akdeniz University.">Ben Kaan Nuri Soylu. Antalya doğa koleji mezunuyum ve şu anda Akdeniz Üniversitesi'nde Bilgisayar Programcılığı bölümünde eğitimime devam ediyorum. </p>
+      <h1 data-lang-tr="Deneyim" data-lang-en="Experience">Deneyim</h1>
+        <p><strong data-lang-tr="Automotive Software Intern" data-lang-en="Automotive Software Intern">Automotive Software Intern</strong></p>
+        <p data-lang-tr="Ecumax Chip Tuning'de 6 ay &quot;Automotive Software Intern&quot; olarak çalıştım. Takım çalışması iş birliği becerileri edindim. İşletme prensipleri ve kurumsal operasyonlar hakkında bilgi ve deneyim edindim." data-lang-en="I worked as an &quot;Automotive Software Intern&quot; at Ecumax Chip Tuning for 6 months. I gained teamwork and collaboration skills. I learned about business principles and corporate operations.">Ecumax Chip Tuning'de 6 ay "Automotive Software Intern" olarak çalıştım. Takım çalışması iş birliği becerileri edindim. İşletme prensipleri ve kurumsal operasyonlar hakkında bilgi ve deneyim edindim. </p>
+      <h1 data-lang-tr="Teknik Beceriler" data-lang-en="Technical Skills">Teknik Beceriler</h1>  
+        <p><strong>C++   C#  Kess, Flex, CMDFlash, Autotuner, KSuite</strong></p>
+      </div>
+      <div id="right_content">
+        <img style="float: left;" src="images/about.jpg" title="about me" alt="about me"/>
+      </div>
+    </div>
+    <!-- end content -->
+
+    <!-- begin footer -->
+    <footer>
+      <p>Tüm hakları sakldıdır &copy;  <a href="http://www.css3templates.co.uk">Design from css3templates.co.uk</a>.</p>
+      <p><img src="images/twitter.png" alt="twitter" />&nbsp;<img src="images/facebook.png" alt="facebook" />&nbsp;<img src="images/rss.png" alt="rss" /></p>
+    </footer>
+    <!-- end footer -->
+
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/language.js"></script>
+  <!-- initialise sooperfish menu -->
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+      setupLanguageToggle();
+    });
+  </script>
+</body>
+</html>
